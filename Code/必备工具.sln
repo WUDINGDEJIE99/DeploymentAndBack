@@ -1,0 +1,30 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31515.178
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "日常备份提取工具", "日常备份提取工具\日常备份提取工具.csproj", "{A0BD56E4-2A1E-4C59-9592-B512C7A3315B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "winform", "winform", "{EA1E6285-DC75-47AF-802B-ACED8DC2235B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A0BD56E4-2A1E-4C59-9592-B512C7A3315B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A0BD56E4-2A1E-4C59-9592-B512C7A3315B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A0BD56E4-2A1E-4C59-9592-B512C7A3315B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A0BD56E4-2A1E-4C59-9592-B512C7A3315B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{A0BD56E4-2A1E-4C59-9592-B512C7A3315B} = {EA1E6285-DC75-47AF-802B-ACED8DC2235B}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {28A9A42F-C197-48C3-A980-3740C5137D84}
+	EndGlobalSection
+EndGlobal
