@@ -251,9 +251,10 @@ namespace 数据制作
 
         /// <summary>
         /// 删除指定时间前后的文件，默认删除指定时间前的文件
+        /// 
         /// </summary>
         /// <param name="sourcePath">源文件夹</param>
-        /// <param name="destPath">目标文件夹</param>
+        /// <param name="destPath">目标文件夹--这个参数暂时无用，废弃</param>
         /// <param name="dthou"></param>
         /// <param name="hulvepath">不复制的文件夹</param>
         public static void DelNewFiles(string sourcePath, string destPath, ref int zongshu, DateTime dthou, string hulvepath = "", bool isqian = true)
@@ -302,7 +303,7 @@ namespace 数据制作
                 List<string> folders = new List<string>(Directory.GetDirectories(sourcePath));
                 foreach (var c in folders)
                 {
-                    string destDir = Path.Combine(new string[] { destPath, Path.GetFileName(c) });
+                    string destDir = Path.Combine(new string[] { sourcePath, Path.GetFileName(c) });
                     //采用递归的方法实现
                     DelNewFiles(c, destDir, ref zongshu, dthou, hulvepath);
                 }

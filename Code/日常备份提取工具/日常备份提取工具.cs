@@ -143,14 +143,14 @@ namespace 日常备份提取工具
             //    }
             //}
             shuchu($"删除文件完成,文件总数为{zongshu}");
-            if (Directory.Exists(MUBIAO))
-            {
-                System.Diagnostics.Process.Start(MUBIAO);
-            }
-            else
-            {
-                shuchu($"文件完不存在：{zongshu}");
-            }
+            //if (Directory.Exists(MUBIAO))
+            //{
+            //    System.Diagnostics.Process.Start(MUBIAO);
+            //}
+            //else
+            //{
+            //    shuchu($"文件完不存在：{zongshu}");
+            //}
 
         }
 

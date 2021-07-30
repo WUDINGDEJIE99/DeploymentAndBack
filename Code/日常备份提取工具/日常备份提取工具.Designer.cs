@@ -114,16 +114,16 @@
             // 
             // textBoxZDSJ
             // 
-            this.textBoxZDSJ.Location = new System.Drawing.Point(751, 86);
+            this.textBoxZDSJ.Location = new System.Drawing.Point(746, 86);
             this.textBoxZDSJ.Name = "textBoxZDSJ";
-            this.textBoxZDSJ.Size = new System.Drawing.Size(118, 21);
+            this.textBoxZDSJ.Size = new System.Drawing.Size(123, 21);
             this.textBoxZDSJ.TabIndex = 122;
-            this.textBoxZDSJ.Text = "2020-6-20 16:39:32";
+            this.textBoxZDSJ.Text = "2021-07-30 11:23:51";
             // 
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(622, 90);
+            this.label3.Location = new System.Drawing.Point(620, 90);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(125, 12);
             this.label3.TabIndex = 120;
@@ -148,7 +148,7 @@
             // 
             // button16
             // 
-            this.button16.Location = new System.Drawing.Point(680, 53);
+            this.button16.Location = new System.Drawing.Point(602, 54);
             this.button16.Name = "button16";
             this.button16.Size = new System.Drawing.Size(145, 23);
             this.button16.TabIndex = 118;
@@ -280,7 +280,7 @@
             // 
             // button25
             // 
-            this.button25.Location = new System.Drawing.Point(601, 53);
+            this.button25.Location = new System.Drawing.Point(752, 53);
             this.button25.Name = "button25";
             this.button25.Size = new System.Drawing.Size(73, 23);
             this.button25.TabIndex = 128;
@@ -315,7 +315,7 @@
             this.checkBoxisqian.Name = "checkBoxisqian";
             this.checkBoxisqian.Size = new System.Drawing.Size(60, 16);
             this.checkBoxisqian.TabIndex = 127;
-            this.checkBoxisqian.Text = "删新的";
+            this.checkBoxisqian.Text = "删旧的";
             this.checkBoxisqian.UseVisualStyleBackColor = true;
             // 
             // button5
